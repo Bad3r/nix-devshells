@@ -41,4 +41,4 @@ Development environment for Node.js and Electron applications.
 
 1. Create a new directory with a `flake.nix`
 2. Follow the existing pattern (see `node-electron/flake.nix`)
-3. Use `nixos-config/nixpkgs` for package consistency
+3. Use `nixpkgs-unstable` for latest packages
