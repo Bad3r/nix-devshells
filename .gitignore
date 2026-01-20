@@ -1,0 +1,19 @@
+# Claude Code
+CLAUDE.md
+
+# Nix build outputs
+result
+result-*
+
+# direnv
+.direnv/
+
+# devenv
+.devenv/
+devenv.local.nix
+
+# Nix store garbage
+*.drv
+
+# VM images
+*.qcow2
