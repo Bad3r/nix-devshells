@@ -2,8 +2,7 @@
   description = "Node.js/Electron development environment";
 
   inputs = {
-    nixos-config.url = "github:bad3r/nixos";
-    nixpkgs.follows = "nixos-config/nixpkgs";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
 
   outputs = { self, nixpkgs, ... }:
